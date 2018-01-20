@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/colorPurple</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="titleTextColor">@color/colorPurple</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="android:buttonStyle">@style/App_ButtonStyle</item>
+        <item name="buttonStyle">@style/App_ButtonStyle</item>
+
+        <!--<item name="android:editTextStyle">@style/App_EditTextStyle</item>
+        <item name="editTextStyle">@style/App_EditTextStyle</item>-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="App_Toolbar" parent="AppTheme.PopupOverlay">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="App_TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
+        <item name="android:background">@drawable/edittext_rounded_rectangle</item>
+        <item name="android:textColor">@color/colorInputText</item>
+        <item name="android:paddingEnd" tools:ignore="NewApi">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingStart" tools:ignore="NewApi">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="App_ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:minHeight">64dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/colorButtonBackground</item>
+    </style>
+
+</resources>

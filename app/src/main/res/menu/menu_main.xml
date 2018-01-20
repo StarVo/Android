@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="starvo.starvo.com.starvo.activity.MainActivity">
+
+    <item
+        android:id="@+id/menu_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_create"
+        android:orderInCategory="100"
+        android:title="Create"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:orderInCategory="100"
+        android:title="Notifications"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+</menu>
